@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: buwkveMXz45c5+v8lRMre1euYpTAnto7SsOgVzc+7ZrLWTWwgZbRIDMu9jMNyp2UGp4h399/kwll2AyeAqZqhd/M7SSRAHDx3rFJR7aM8iONnvRu3mMCVl9MK00G/h48PE5hD9N6HuUshuDBqbFTSEFY/lfTNDW/hq8Qp8gmyOeIp+EHdHeLwkyZzul7ndMe+9SZfR1iV7MP94vA/vD5cFByd6OK4nSLDelcv+3xuJht4j5oLJqgoo4ePYgfxaXJsapkfNO1k45UYxuoBLDvisXHieL3R4pc8HIfOIEHWb5yx9gmQv1mZ6qei25nQGbABTnV4+2RIu3f/dwLoyXZty5F5sJr4QcSAL0zPlq8fgTxsVa5hhmt9bd3mZnnBIowm3M9d8MPOfZiy1TOY49ZuCWo7HMOTjdf23k+JWp5Lh5uEaUbnYm/NvGE4GhEH38nZfEQuM8kb5zsxD1ukz7OWr4hqQwPwwEQVGsyzCqiTLVZfVxgzgdMM9bo3VCkUyadcj2r/LrKdqzFh9SdJnGOa7K5mIUgoGtySm+4WQ9RGfWa75eVl5uIO6G/W5Q45C3Ocq/hZexGrQENKoCADQd88weGHijbvPmlXp5x0IuB5vN1AvpVTQN1X3Gq0bgVhesuhccf34aiaCM6L5GYFMOHI8K8lvfABx8wffgwbWt/9NU=
+  app: pure-inlet-87529
+  on:
+    repo: amyhagelin/node-shopping-list-integration-tests
